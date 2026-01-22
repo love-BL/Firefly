@@ -42,7 +42,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	});
 
 	// 友链
-	links.push(LinkPreset.Friends);
+	//links.push(LinkPreset.Friends);
 
 	// 根据配置决定是否添加留言板，在siteConfig关闭pages.guestbook时导航栏不显示留言板
 	if (siteConfig.pages.guestbook) {
@@ -56,7 +56,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		icon: "material-symbols:info",
 		children: [
 			// 根据配置决定是否添加赞助，在siteConfig关闭pages.sponsor时导航栏不显示赞助
-			...(siteConfig.pages.sponsor ? [LinkPreset.Sponsor] : []),
+			//...(siteConfig.pages.sponsor ? [LinkPreset.Sponsor] : []),
 
 			// 关于页面
 			LinkPreset.About,

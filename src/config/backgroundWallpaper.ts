@@ -24,7 +24,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "Lovely 残颜!",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
@@ -32,7 +32,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				"In Reddened Chrysalis, I Once Rest",
 				"From Shattered Sky, I Free Fall",
 				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
+				"Upon Lighted 残颜, I Soon Gaze",
 				"From Undreamt Night, I Thence Shine",
 				"In Finalized Morrow, I Full Bloom",
 			],
